@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Post</title>
+    <style>
+        .title {
+            background-color: blue;
+            color: rgb(204, 8, 8);
+            padding: 50px;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            const currentDate = new Date();
+            const formattedDate = currentDate.toDateString();
+            document.getElementById('publicationDate').innerText = formattedDate;
+        };
+    </script>
+</head>
+<body>
+    <div class="post">
+        <h1 class="title">ADVICE FOR MOBILE LEGEND PLAYERS</h1>
+        <p>Author: Lilidavidloca</p>
+        <p id="publicationDate">Publication Date: </p>
+        <div class="post"></div>
+        <img src="https://cdn2.omg.rocks/i/15f36db9f43170/mobile-legends-cover.png"
+            <!-- Article content goes here -->
+            <p>If you have been using a character that always wins and then suddenly you begin to lose matches it is not the character's fault neither is it your fault. My research has proven successful, 
+                and my finding is that people who use a particular character for a long are people who blend with the character while other people who use characters and then suddenly start having problems
+                 are not to blame the characters nor blame themselves but people with this type of problems tend to be more of a Pro player when using characters at random.
+                I am counted as one of these people...normally if I use a character for too long, I start to have problems then, when I switch characters between matches, I surprisingly wing.
+                So the advice for people with this problem is to stop using a specific character and move on to using different characters for different matches.</p>
+        </div>
+    </div>
+</body>
+</html>
